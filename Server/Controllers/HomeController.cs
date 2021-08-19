@@ -25,7 +25,7 @@ namespace Server.Controllers
         {
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, "some_id"),
+                new Claim(JwtRegisteredClaimNames.Sub, "Simranjeet Kaur Assignment Data"),
                 new Claim("granny", "cookie")
             };
 
